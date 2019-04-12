@@ -1,0 +1,21 @@
+{
+    "name": "96qbhy/free-apis",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HanSon",
+            "email": "h@hanc.cc"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "ext-json": ">=1.0",
+        "hanson/foundation-sdk": "^3.0",
+        "96qbhy/express": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qbhy\\FreeApis\\": "src"
+        }
+    }
+}
