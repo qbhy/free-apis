@@ -4,8 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2ce84636c4ba1c931a633ec8b00128f",
+    "content-hash": "773e4d7ffe910f01c18307ddc04faad3",
     "packages": [
+        {
+            "name": "96qbhy/exception",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/qbhy/exception.git",
+                "reference": "792838d3b26bbe01fc7d75430a994b1cde2f0616"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/qbhy/exception/zipball/792838d3b26bbe01fc7d75430a994b1cde2f0616",
+                "reference": "792838d3b26bbe01fc7d75430a994b1cde2f0616",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Qbhy\\Exception\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "qbhy",
+                    "email": "572490755@qq.com"
+                }
+            ],
+            "description": "可渲染的PHP异常",
+            "time": "2019-01-24T03:16:18+00:00"
+        },
         {
             "name": "96qbhy/express",
             "version": "3.1",
@@ -868,7 +907,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1"
+        "php": "^7.1",
+        "ext-json": ">=1.0"
     },
     "platform-dev": []
 }
