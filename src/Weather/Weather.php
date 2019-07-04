@@ -54,7 +54,7 @@ class Weather extends Api
      */
     public function getCityMap()
     {
-        if (is_null($this->cityMap)) {
+        if ($this->cityMap === null) {
             $this->cityMap = json_decode(file_get_contents(__DIR__ . '/sites_map.json'), true);
         }
 
