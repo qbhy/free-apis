@@ -17,6 +17,7 @@ $api = new Qbhy\FreeApis\FreeApis([
 var_dump($api->express->query('快递单号')); // 查快递
 var_dump($api->translation->google('你好', 'en')); // 翻译
 var_dump($api->weather->queryWithCityName('广州')); // 天气查询
+var_dump($api->ip->getIpInfo('IP地址')); // IP查询
 ```
 
 96qbhy@gmail.com  
