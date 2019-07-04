@@ -4,13 +4,17 @@
   "keywords": [
     "free",
     "api",
-    "free-api"
+    "express",
+    "weather",
+    "ip",
+    "ip-address",
+    "translation"
   ],
   "license": "MIT",
   "authors": [
     {
-      "name": "HanSon",
-      "email": "h@hanc.cc"
+      "name": "qbhy",
+      "email": "96qbhy@gmail.com"
     }
   ],
   "require": {
